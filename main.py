@@ -42,7 +42,7 @@ def main():
 
         df = YahooDownloader(start_date=config.START_DATE,
                              end_date=config.END_DATE,
-                             ticker_list=config.DOW_30_TICKER).fetch_data()
+                             ticker_list=config.KOSPI_100_TICKER).fetch_data()
         now = datetime.datetime.now().strftime("%Y%m%d-%Hh%M")
         df.to_csv("./" + config.DATA_SAVE_DIR + "/" + now + ".csv")
 
