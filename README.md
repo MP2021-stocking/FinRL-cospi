@@ -8,7 +8,7 @@ It is a repository for portfolio recommendations and stock recommendations in KO
 
 ## Project RoadMap
 
-Last update : 2021-03-21
+Last update : 2021-06-10
 
 ### Dataset Prepare
 
